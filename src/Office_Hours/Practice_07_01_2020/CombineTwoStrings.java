@@ -5,11 +5,15 @@ package Office_Hours.Practice_07_01_2020;
                     Input:
                         one
                         eight
+
                     Output:
                         oneight
  */
+
 import java.util.Scanner;
+
 public class CombineTwoStrings {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -17,7 +21,7 @@ public class CombineTwoStrings {
         //             012
 
         String str2 =  scan.next();
-        //          01234
+            //          01234
 
 
 
@@ -34,7 +38,7 @@ public class CombineTwoStrings {
 
         // second:
         String s1 = str1.substring( str1.length() -1 ); // "K"
-        // substring(2 ) ==> e
+                        // substring(2 ) ==> e
 
         String s2 = str2.substring(0, 1);  // "s"
 

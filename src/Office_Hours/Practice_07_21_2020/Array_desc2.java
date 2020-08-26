@@ -2,9 +2,11 @@ package Office_Hours.Practice_07_21_2020;
 
 import java.util.Arrays;
 
-public class Array_desc2 {
+public class Array_Desc2 {
+
     public static void main(String[] args) {
-        int[] arr={1905,1903,1453,1960,1989,2016,1991,1990,1071};
+
+        int[] arr = {98, 97, 100, 200, 55, 68, 1000, 2000, 300000, 4000000};
 
         Arrays.sort(arr); //[55, 68, 97, 98, 100, 200]
 
@@ -19,5 +21,8 @@ public class Array_desc2 {
         }
 
         System.out.println(Arrays.toString(descArr));
+
+
     }
+
 }

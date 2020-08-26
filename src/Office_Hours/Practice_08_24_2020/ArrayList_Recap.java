@@ -1,4 +1,5 @@
 package Office_Hours.Practice_08_24_2020;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -59,9 +60,9 @@ public class ArrayList_Recap {
 
 
         ArrayList<Integer> grades = new ArrayList<>();
-        grades.addAll( Arrays.asList(50, 65, 45, 55, 75, 85, 95, 98, 100, 87, 40, 52, 62, 35));
+            grades.addAll( Arrays.asList(50, 65, 45, 55, 75, 85, 95, 98, 100, 87, 40, 52, 62, 35));
 
-        grades.removeIf( p -> p < 60 );
+            grades.removeIf( p -> p < 60 );
 
         System.out.println(grades);
 

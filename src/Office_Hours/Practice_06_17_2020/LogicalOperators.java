@@ -1,46 +1,37 @@
 package Office_Hours.Practice_06_17_2020;
 
-import javax.jws.soap.SOAPBinding;
-
 public class LogicalOperators {
-    public static void main(String[] args) {
 
-        boolean r1=!true !=true;
-                // false!=true==>True
+    public static void main(String[] args) {
+        boolean r1 = !true != true;
+        //           false != true ==> true
+
         System.out.println(r1);
 
-        boolean r2=!r1; // ==false
+        boolean r2 = !r1;
+
         System.out.println(r2);
 
-        System.out.println("====================================");
+        System.out.println( !!!!!false ); // true
 
-        //         || : or means either one
+        System.out.println( !!!!!! true);
 
-        boolean result1=9>10 || "Java"== "Java" || "A"=="a";
-               //       false ||     true       || false ==>  true   one true is enough
+        System.out.println("=========================");
+    // ||: either
+        boolean result1 = 9 > 10 || "Java" == "Java" || 'A' =='a';
+        //                false || true   ||  false
+
         System.out.println(result1);
 
-        System.out.println("=====================================");
+    // &&
+        boolean result2 = "Java" != "Python" && "Muhtar" != "Good Guy";
+        //                  true && true
 
-        // && and logic
-
-        boolean result2= "Java" != "Pyton" &&  "Muhtar"== "Good Guy";
-                      //  true             &&   false  = false
         System.out.println(result2);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
+
 }

@@ -1,6 +1,7 @@
 package Office_Hours.Practice_06_24_2020;
 
 public class Switch_ShortQuiz {
+
     public static void main(String[] args) {
         //q1
         int a = 10;  // float, long, boolean, double
@@ -22,5 +23,9 @@ public class Switch_ShortQuiz {
 
         }
 
+
+
+
     }
+
 }

@@ -1,7 +1,9 @@
 package Office_Hours.Practice_07_07_2020;
+
 import java.util.Scanner;
 
 public class StringReverse {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -24,7 +26,7 @@ public class StringReverse {
 
         for(int i = str.length()-1; i >= 0; i -= 1 ){ //i: 6,5,4,3,2,1,0
 
-            result += str.charAt(i) ;
+             result += str.charAt(i) ;
 
         }
 
@@ -37,7 +39,7 @@ public class StringReverse {
 
         while(index >= 0){
 
-            result2 += str.charAt(index);
+          result2 += str.charAt(index);
 
             index -= 1;
         }
@@ -45,5 +47,9 @@ public class StringReverse {
         System.out.println(result2);
 
 
+
+
     }
+
+
 }

@@ -1,4 +1,5 @@
 package Office_Hours.Practice_08_24_2020;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,19 +8,21 @@ public class Array_Recap {
     Array
     Collection
     Map
+
     Arrays Utility:
            toString: to print array
            sort: ascending order
            equals: compares two arrays
            asList:  to convert Object Arrays to Collection Type
+
      */
     public static void main(String[] args) {
 
         int[] arr1 = new int[5];  // index: 0,1,2,3,4
-        //  System.out.println(arr1);
-        arr1[0] = 10;
-        arr1[ arr1.length-1 ]  = 20;
-        //5-1 = 4
+      //  System.out.println(arr1);
+            arr1[0] = 10;
+            arr1[ arr1.length-1 ]  = 20;
+                    //5-1 = 4
         System.out.println(  Arrays.toString(arr1) );
 
 

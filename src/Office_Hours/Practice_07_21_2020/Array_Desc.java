@@ -3,6 +3,7 @@ package Office_Hours.Practice_07_21_2020;
 import java.util.Arrays;
 
 public class Array_Desc {
+
     public static void main(String[] args) {
         int[] arr = {98, 97, 100, 200, 55, 68, 79, 3000, 400, 40, 600000};
 
@@ -36,4 +37,3 @@ public class Array_Desc {
     }
 
 }
-

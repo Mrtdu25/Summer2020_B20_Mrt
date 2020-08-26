@@ -18,10 +18,24 @@ public class PizzaObjects {
         double totalPrice = 0;
 
         for(Pizza each  : pizzaForBatch20){
-            totalPrice  += each.calcPrice();
+              totalPrice  += each.calcPrice();
         }
 
         System.out.println("Total Price: $"+totalPrice);
+
+        System.out.println("=================================================================");
+
+        Pizza pizza1 = new Pizza();
+        pizza1.setPizzaInfo("Large", 3, 4);
+
+        Pizza pizza2 = new Pizza();
+        pizza2.setPizzaInfo("Medium", 3, 2);
+
+        System.out.println("Nadir' Pizza: $"+pizza1.calcPrice());
+
+        System.out.println();
+
+        System.out.println("Saim' Pizza: $"+pizza2.calcPrice());
 
 
 

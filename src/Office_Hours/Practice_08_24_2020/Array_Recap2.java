@@ -1,4 +1,5 @@
 package Office_Hours.Practice_08_24_2020;
+
 import java.util.Arrays;
 
 public class Array_Recap2 {
@@ -9,7 +10,7 @@ public class Array_Recap2 {
 
         for(int  each : nums ){
             if(each % 3 != 0){
-                continue;
+               continue;
             }
 
             System.out.println(each);

@@ -1,6 +1,7 @@
 package Office_Hours.Practice_06_30_2020;
 
 public class NestedIf {
+
     public static void main(String[] args) {
         int score = 95;
 
