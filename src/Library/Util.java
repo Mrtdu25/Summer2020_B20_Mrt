@@ -351,5 +351,16 @@ public class Util {
     }
     // combines two array and returns it
 
+    public static void sleep(double second){
+
+        try {
+            Thread.sleep((long)second*1000);
+        }catch (InterruptedException e){
+
+        }
+
+    }
+    // Thread.sleep  short cut
+
 }
 
