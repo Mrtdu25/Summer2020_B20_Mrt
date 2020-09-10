@@ -1,6 +1,5 @@
 package Day51_Exceptions;
 
-import javax.jws.soap.SOAPBinding;
 
 class Test{
     int a=1905;
