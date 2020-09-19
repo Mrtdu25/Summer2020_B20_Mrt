@@ -1,5 +1,4 @@
 package Day46_ConstructorCalls;
-import day45_Constructor.Constructor;
 
 public class ConstructorCalls2 {
 

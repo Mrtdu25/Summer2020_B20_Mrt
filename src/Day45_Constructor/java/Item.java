@@ -1,4 +1,4 @@
-package day45_Constructor;
+package Day45_Constructor.java;
 
 /*
 1. create a class called Item

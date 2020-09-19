@@ -1,4 +1,4 @@
-package day45_Constructor;
+package Day45_Constructor.java;
 
 /*
 2. Create class called SalaryCalculator
