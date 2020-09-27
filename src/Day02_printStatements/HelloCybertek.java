@@ -11,6 +11,10 @@ public class HelloCybertek {
          System.out.println("               I Love Java Programing Language");
 
 
+         int a=(int)0.9;
+        System.out.println(a);
+
+
 
 
 
