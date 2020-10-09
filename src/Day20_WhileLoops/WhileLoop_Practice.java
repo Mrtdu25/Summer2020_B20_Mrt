@@ -16,8 +16,5 @@ public class WhileLoop_Practice {
             num++;
         }
 
-
-
-
     }
 }
