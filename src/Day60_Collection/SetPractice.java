@@ -3,7 +3,7 @@ package Day60_Collection;
 import java.util.*;
 
 public class SetPractice {
-// write aprogram that can remove duplicates from string
+// write a program that can remove duplicates from string
 
     public static void main(String[] args) {
         String str = "ddddddddcccccccbbbbbbbbaaaaaaaaa"; // dcba
