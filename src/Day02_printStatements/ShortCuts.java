@@ -12,6 +12,15 @@ public class ShortCuts {
         System.out.println("My name is \'murat\'");
         System.out.println("My name is \"murat\"");
 
+        System.out.println("My ");
+        System.out.println("   name ");
+        System.out.println("        is ");
+        System.out.println("            Mur@t ");
+
+        String teamName="Galatasaray";
+        System.out.println("I am fan of "+ teamName + " \' GS \'");
+        System.out.println("I love intellij ");
+
     }
 
 
