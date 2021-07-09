@@ -13,11 +13,14 @@ public class AboutMySelf {
     public static void main(String[] args) {
 
 
-        System.out.println("Hello Everyone");
+        System.out.println("\tHello Everyone");
         System.out.println("\tMy name is 'Murat', My favorite book is \"Java\"My favorite TV-series is \"Breaking Bad\"");
         System.out.println("\t My name is \'Hamid\' i love my family \nmy mom's name is Duaa\"DuDu\" and i like chocolate ");
 
 
+        System.out.println("\tHello Intellij \t\n My name is Murat Degirmenci I am originally from Turkey an i have been in US around 6 years \n I am a senior Tester" +
+                "I work for a very known company as \'SDET\' I am married and \t\n I have 2 children My favorite sport is soccer and favorite team is Galatasaray \' GS\' " +
+                "i like to learn new things and improve myself  ");
     }
 
 

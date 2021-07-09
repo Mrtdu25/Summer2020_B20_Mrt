@@ -18,6 +18,8 @@ public class Concate_VS_Addition {
         System.out.println("A"+2);  // I'll get same result= A2
         System.out.println("Gender: "+'M'); // Gender:M
 
+        System.out.println('a'+'b'+'C');
+
 
 
 

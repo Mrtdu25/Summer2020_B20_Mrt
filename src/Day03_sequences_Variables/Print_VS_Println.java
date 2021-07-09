@@ -19,6 +19,17 @@ public class Print_VS_Println {
         System.out.print("Hmd");
         System.out.print("Duaa");
 
+        System.out.println("==============================");
+
+        System.out.print("-Murat -");
+        System.out.print("Duaa -");
+        System.out.print("Abdulhamid -");
+        System.out.print("Aya Sophia.");
+        System.out.println();
+        System.out.println("================================");
+
+
+
 
 
 

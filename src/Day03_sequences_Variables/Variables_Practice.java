@@ -30,6 +30,17 @@ public class Variables_Practice {
         System.out.println(f1);
         System.out.println(f2);
 
+        byte byteNumber=25;
+        short shortNumber=3500;
+        int intNumber=350000000;
+        long longNumber=3500000000l;
+        double doubleNumber=35567.54;
+        float floatNumber=459900.79f;
+
+        System.out.println("byte plus short "+byteNumber*shortNumber);
+        System.out.println("int long double "+intNumber+longNumber/doubleNumber);
+
+
 
     }
 

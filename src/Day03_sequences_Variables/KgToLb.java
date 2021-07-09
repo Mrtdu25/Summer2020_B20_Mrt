@@ -22,6 +22,13 @@ public class KgToLb {
         double lb=lt1250/3.7854;
         System.out.println(lb);
 
+        double myWeightKg=98;
+        double myWeightPound=myWeightKg*2.2;
+        System.out.println("myWeightPound = " + myWeightPound);
+
+        double backToKg = myWeightPound / 2.2;
+        System.out.println("backToKg = " + backToKg);
+
 
     }
 }

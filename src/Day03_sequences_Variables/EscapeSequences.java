@@ -23,6 +23,9 @@ public class EscapeSequences {
         System.out.println("Your name is \'Duaa\'");// Single line note
         System.out.println("Your name is \"Duaa\"");// Another single line note
 
+        System.out.println("\'GALATASARAY\'");
+        System.out.println("\"GALATASARAY\"");
+
         /*
         1-you also take more than one line note
         2-example 2

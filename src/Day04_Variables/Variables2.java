@@ -54,7 +54,7 @@ public class Variables2 {
         char v3 ='r';
         char v4 ='a';
         char v5 ='t';
-        System.out.println(v1);
+        System.out.println(v1+" "+v2+" "+v3+" "+v4+" "+v5);
         System.out.println(v2);
         System.out.println(v3);
         System.out.println(v4);

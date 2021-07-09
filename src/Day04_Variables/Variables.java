@@ -3,6 +3,7 @@ package Day04_Variables;
 // We will practice Boolean & Char
 // boolean result only can be True & False
 
+import Day35_ArrayList.ArrayList_Methods;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 public class Variables {
@@ -35,7 +36,17 @@ public class Variables {
         System.out.println(result5);
         System.out.println(result6);
 
-    // Elvis > Micheal
+        String daug="Aya sophia Degirmenci";
+        String son= "Abdulhamid Degirmenci";
+
+        int daugLength = daug.length();
+        int sonLength = son.length();
+
+        System.out.println(daugLength==sonLength);
+
+
+
+        // Elvis > Micheal
 
 
 
